@@ -38,6 +38,7 @@ div > button{
   font-size: 30px;
 }
 
+
 #scorecont{
 margin: 0px auto;
 }
@@ -73,18 +74,45 @@ div>p{
 
 }
 
+#mode>button{
+  border: 2px solid white;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#mode{
+  width: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin:0px auto;
+
+}
+#modecontainer{
+  margin: 0px auto;
+}
+
 @media only screen and (max-width: 600px) {
+
+
 #square{
   width:100%;
   margin-left: 0px;
+  margin: 0px auto;
 }
 #main{
   padding-left: 0px;
   margin-right: 10px;
 }
+#squarecontainer{
 
+  width: 100%;
+}
 #top5{
   width: 70%;
+}
+body{
+  margin:0px;
 }
 
 }
