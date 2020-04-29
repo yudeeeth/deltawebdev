@@ -256,5 +256,7 @@ for(var i=0;i<4;i++){
   }
 }
 
+if(localStorage.length != 0)
 loaddata();
+
 displayscore();
